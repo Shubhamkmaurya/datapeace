@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+}
+
+
+li {
+    border: 1px solid gray;
+    padding:6px 15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

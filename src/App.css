@@ -1,0 +1,48 @@
+.App {
+    height: auto;
+    width: auto;
+    background-color: #ebebeb;
+    padding: 100px;
+    border: 1px solid grey;
+}
+
+.table {
+    align-content: center;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+img {
+    height: 25px;    
+} 
+
+
+.input {
+    height: 30px;
+    width:400px;
+    border-color: #ebebeb;
+} 
+
+td {
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.userdata {
+    margin: 5px;
+    padding: 5px;
+}
+
+.upper {
+    height: 3px;
+    width: 5px;
+}
