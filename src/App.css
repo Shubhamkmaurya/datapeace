@@ -2,12 +2,13 @@
     height: auto;
     width: auto;
     background-color: #ebebeb;
-    padding: 100px;
+    padding: 50px;
     border: 1px solid grey;
 }
 
 .table {
     align-content: center;
+    margin-top: 20px;
 }
 
 .content {
@@ -16,11 +17,10 @@
 }
 
 img {
-    height: 25px;    
+    height: 23px;  
 } 
 
-
-.input {
+input {
     height: 30px;
     width:400px;
     border-color: #ebebeb;
@@ -35,14 +35,38 @@ td {
 
 .heading {
     font-weight: bold;
-}
-
-.userdata {
-    margin: 5px;
-    padding: 5px;
+    background-color: #ebebeb;
 }
 
 .upper {
     height: 3px;
     width: 5px;
 }
+
+.fbtn {
+    height: 10px;
+    width: 10px;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    font-size:x-small;
+    color: grey;
+}
+
+.head {
+    display: flex;
+}
+ .link {
+    font-size: larger;
+ }
+
+ .btn1 {
+    background-color: #ebebeb;
+    padding: 5px;
+    border-color: black;
+    
+ }
+
+ .hndlinpt {
+    display: flex   ;
+ }

@@ -7,10 +7,14 @@
 
 li {
     border: 1px solid gray;
-    padding:6px 15px;
+    padding: 5px 5px;
+    margin: 6px 5px;
     list-style: none;
+    
 }
 
-a {
+button {
     text-decoration: none;
+    border: none;
+    background-color: white;
 }

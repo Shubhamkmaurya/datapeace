@@ -1,0 +1,33 @@
+.main {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #ebebeb;
+    padding: 50px;
+}
+
+.userdetail {
+    margin: 15px;
+    
+}
+
+.hline {
+    height: 1px #ebebeb;
+    width: 1050px;
+    color: #ebebeb;
+
+}
+.content {
+    background-color: white;
+    font-size: 14px;
+    padding-left: 150px;
+}
+
+.head {
+    margin-bottom: 40px;
+}
+
+.backbtn {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    font-size: 50px;
+}

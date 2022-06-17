@@ -40,16 +40,13 @@ const Pagination = ({showPerPage, onPaginationChange, total}) => {
         <div className="btnp">
         <nav aria-label="Page navigation example">
             <ul class="pagination">
-                <li><a class="page-link" href="#" onClick={()=> onButtonClick("prev")}>&lt;</a></li>
-                {/* <li><a class="page-link" href="!#">1</a></li> */}
+                <li><button class="page-link" onClick={()=> onButtonClick("prev")}>&lt;</button></li>
                 {
                     pages.map((el, index) => (
-                        <li><a class="page-link" href="!#" onClick={()=> setCount(el)}>{el}</a></li>
-                    
-                        
+                        <li><button class="page-link" onClick={()=> setCount(el)}>{el}</button></li>    
                     ))
                 }
-                <li class="page-item"><a class="page-link" href="#" onClick={()=> onButtonClick("next")}>&gt;</a></li>
+                <li class="page-item"><button class="page-link" onClick={()=> onButtonClick("next")}>&gt;</button></li>
             </ul>
 </nav> 
 </div>
