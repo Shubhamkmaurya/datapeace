@@ -1,5 +1,6 @@
 This app is working properly.
 On first page you can find user from his first_name and last_name.
-On same page every data is paginated (showPerPage = 10 users)
-On clicking First name you redirect to another page and here you can see user's all the details
-On user detail page clicking left arrow icon you can redirect on same user data page 
+On same page every data is paginated (showPerPage = 10 users).
+On clicking First name you redirect to another page and here you can see user's all the details.
+On user detail page clicking left arrow icon you can redirect on same user data page .
+In user's detail heading added one ascending and descending icon so you can arrenge data according to that icon .
